@@ -1,0 +1,97 @@
+/* PC */
+@media (min-width: 64rem) {
+    .mobile-menu-btn {
+        display: none;
+    }
+
+    .contact-content {
+        position: relative;
+    }
+
+    .contact-form {
+        position: absolute;
+        right: 0px;
+        top: 26px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25rem) and (max-width: 63.938rem) {
+    .mobile-menu-btn {
+        display: none;
+    }
+
+    .contact-content {
+        position: relative;
+    }
+
+    .contact-form {
+        position: absolute;
+        right: 0px;
+        top: 26px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.188rem) {
+    
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-item {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    #content .place-list-mobile {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #content .buy-ticket-btn,
+    #content .submit-btn,
+    #content .contact-email,
+    #content .contact-name,
+    #content .contact-form,
+    #content .contact-info {
+        width: 100%;
+    }
+
+    #content .contact-form {
+        margin-top: 25px;
+    }
+
+
+}
